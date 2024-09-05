@@ -245,7 +245,7 @@ body {
   width: 24px;
 }
 .navbar .sidebar {
-  width: 70%;
+  width: 80%;
   height: 100vh;
   background: white;
   position: fixed;
@@ -256,9 +256,11 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  z-index: 100;
 }
 .navbar .sidebar.active__sidebar {
   right: 0;
+  z-index: 100;
 }
 .navbar .sidebar .close {
   list-style: none;
@@ -313,12 +315,14 @@ body {
 .banner {
   overflow: hidden;
   position: relative;
+  z-index: -1;
 }
 @media (max-width: 1219px) {
   .banner {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
   }
 }
 .banner video {
