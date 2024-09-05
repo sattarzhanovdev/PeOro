@@ -105,18 +105,27 @@ $dropClick.addEventListener('click', e => {
 })
 
 
-$dropHover.addEventListener('mouseout', e => {
-  $dropdown.setAttribute('style', 'display: none')    
-})
+let hideDropdownTimeout;
 
-$dropdown.addEventListener('mouseover', e => {
-  $dropdown.setAttribute('style', 'display: flex')    
-})
+$dropHover.addEventListener('mouseenter', () => {
+  clearTimeout(hideDropdownTimeout);  
+  $dropdown.style.display = 'flex'; 
+});
 
-$dropdown.addEventListener('mouseout', e => {
-  $dropdown.setAttribute('style', 'display: none')    
-})
+$dropHover.addEventListener('mouseleave', () => {
+  hideDropdownTimeout = setTimeout(() => {
+    $dropdown.style.display = 'none';
+  }, 2000); 
+});
 
+$dropdown.addEventListener('mouseenter', () => {
+  clearTimeout(hideDropdownTimeout);  
+  $dropdown.style.display = 'flex'; 
+});
+
+$dropdown.addEventListener('mouseleave', () => {
+  $dropdown.style.display = 'none';
+});
 
 
 $bars.addEventListener('click', e => {
