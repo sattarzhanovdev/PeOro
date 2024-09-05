@@ -297,6 +297,9 @@ body {
   gap: 20px;
   margin-top: 10px;
 }
+.navbar .sidebar .side__list li .drop__side li a {
+  color: #f0ba10;
+}
 .navbar .sidebar .getInTouch {
   margin-left: 40px;
   display: flex;
@@ -401,4 +404,8 @@ body {
     width: 180px;
     height: 30px;
   }
+}
+
+button {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
