@@ -263,18 +263,21 @@ body {
   right: 0;
   z-index: 100;
 }
-.navbar .sidebar .close {
-  list-style: none;
-  position: absolute;
-  right: 20px;
-  top: 30px;
+.navbar .sidebar .up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar .sidebar .close img {
-  width: 20px;
-}
-.navbar .sidebar .logo {
+.navbar .sidebar .up .logo {
   width: 100px;
   margin: 40px;
+}
+.navbar .sidebar .up .close {
+  list-style: none;
+  margin-right: 40px;
+}
+.navbar .sidebar .up .close img {
+  width: 20px;
 }
 .navbar .sidebar .side__list {
   position: relative;

@@ -257,20 +257,23 @@ body{
       right: 0;
       z-index: 100;
     }
-    .close{
-      list-style: none;
-      position: absolute;
-      right: 20px;
-      top: 30px;
-      img{
-        width: 20px;
+    .up{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo{
+        width: 100px;
+        margin: 40px;
+      }
+      .close{
+        list-style: none;
+        margin-right: 40px;
+        img{
+          width: 20px;
+        }
       }
     }
 
-    .logo{
-      width: 100px;
-      margin: 40px;
-    }
 
     .side__list{
       position: relative;
