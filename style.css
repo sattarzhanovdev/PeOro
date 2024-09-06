@@ -254,7 +254,7 @@ body {
   transition: 0.3s;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   z-index: 100;
   overflow-y: scroll;
@@ -267,6 +267,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .navbar .sidebar .up .logo {
   width: 100px;
@@ -310,6 +311,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 20px;
 }
 .navbar .sidebar .getInTouch button {
   width: 200px;
