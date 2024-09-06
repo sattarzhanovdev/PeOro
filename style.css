@@ -342,7 +342,7 @@ body {
 }
 @media (max-height: 400px) {
   .banner video {
-    height: 100vh;
+    height: 140vh;
   }
 }
 .banner .text {
