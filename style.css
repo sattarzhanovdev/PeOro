@@ -335,6 +335,16 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-height: 600px) {
+  .banner video {
+    height: 90vh;
+  }
+}
+@media (max-height: 400px) {
+  .banner video {
+    height: 100vh;
+  }
+}
 .banner .text {
   position: absolute;
   bottom: 30%;
