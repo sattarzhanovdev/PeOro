@@ -303,7 +303,7 @@ body {
   margin-top: 10px;
 }
 .navbar .sidebar .side__list li .drop__side li a {
-  color: #f0ba10;
+  color: #bf991c;
 }
 .navbar .sidebar .getInTouch {
   margin-left: 40px;
@@ -311,7 +311,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 .navbar .sidebar .getInTouch button {
   width: 200px;
